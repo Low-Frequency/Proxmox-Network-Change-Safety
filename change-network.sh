@@ -65,6 +65,7 @@ if [[ -z $TIMER ]]; then
   echo -e "A timer has to be set!"
   echo -e ""
   echo -e "$HELP"
+  exit 1
 fi
 
 ### Use specified config. If not set use default
